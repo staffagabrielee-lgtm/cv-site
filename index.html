@@ -6,7 +6,7 @@
   <title>Gabriele Staffa — Growth Marketer & Builder</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -69,23 +69,11 @@
     <div class="container">
       <div class="section-label">Chi sono</div>
       <h2 class="section-title">Non aspetto le opportunità.<br />Le creo.</h2>
-      <div class="about-grid">
+      <div class="two-col">
         <div class="about-text">
-          <p>
-            Sono al 3° anno di <strong>Digital Marketing</strong>. L'università mi ha dato le basi,
-            ma non abbastanza stimoli — quindi ho aperto la <strong>P.IVA</strong> e ho trovato
-            i miei primi clienti combinando <strong>scraping + email personalizzate con AI</strong>.
-          </p>
-          <p>
-            Ho un profilo orizzontale: mi muovo con agio tra <strong>paid ads</strong>,
-            <strong>growth marketing</strong>, <strong>UX design</strong> e coding con
-            <strong>Claude Code</strong>. Non mi spaventa nessuna parte del funnel —
-            dalla cold call alla campagna Meta.
-          </p>
-          <p>
-            Il mondo <strong>startup e business</strong> è la mia ossessione:
-            B4i in Bocconi, Startup Weekend, e ora costruisco concretamente.
-          </p>
+          <p>Sono al 3° anno di <strong>Digital Marketing</strong>. L'università mi ha dato le basi, ma non abbastanza stimoli — quindi ho aperto la <strong>P.IVA</strong> e ho trovato i miei primi clienti combinando <strong>scraping + email personalizzate con AI</strong>.</p>
+          <p>Ho un profilo orizzontale: mi muovo con agio tra <strong>paid ads</strong>, <strong>growth marketing</strong>, <strong>UX design</strong> e coding con <strong>Claude Code</strong>. Non mi spaventa nessuna parte del funnel — dalla cold call alla campagna Meta.</p>
+          <p>Il mondo <strong>startup e business</strong> è la mia ossessione: B4i in Bocconi, Startup Weekend, e ora costruisco concretamente.</p>
         </div>
         <div class="about-traits">
           <div class="trait">Esecuzione rapida</div>
@@ -102,229 +90,232 @@
   <div class="full-divider"></div>
 
   <!-- PROGETTI -->
-  <section class="progetti section" id="progetti">
+  <section class="section" id="progetti">
     <div class="container">
       <div class="section-label">Esperienze & Progetti</div>
       <h2 class="section-title">Quello che ho costruito.</h2>
-      <div class="cards-grid">
 
-        <div class="card card-featured">
-          <div class="card-img-wrap">
-            <img src="images/b4i.png" alt="B4i Bocconi" class="card-img" />
-          </div>
-          <div class="card-body">
-            <span class="card-label">Formazione</span>
-            <h3>B4i — Bocconi for Innovation</h3>
-            <p>3 mesi di percorso intensivo su startup e innovazione con i migliori mentor in Italia. Lean startup methodology, pitch, business model canvas.</p>
-          </div>
+      <!-- B4i -->
+      <div class="block-row">
+        <div class="block-text">
+          <span class="block-label">Formazione</span>
+          <h3 class="block-title">B4i — Bocconi<br />for Innovation</h3>
+          <p class="block-desc">3 mesi di percorso intensivo su startup e innovazione con i migliori mentor in Italia. Sviluppo di lean startup methodology, pitch deck e business model canvas in un contesto universitario d'eccellenza.</p>
+          <ul class="block-list">
+            <li>Mentorship con founder e VC italiani di primo livello</li>
+            <li>Validazione idea e customer discovery</li>
+            <li>Pitch finale davanti a una giuria</li>
+          </ul>
         </div>
-
-        <div class="card">
-          <div class="card-img-wrap">
-            <img src="images/startup-weekend.jpeg" alt="Startup Weekend AI Lecco" class="card-img" />
-          </div>
-          <div class="card-body">
-            <span class="card-label">Competition — 3° posto</span>
-            <h3>Startup Weekend AI — Lecco</h3>
-            <p>54 ore per validare, costruire e pitchare uno startup da zero. Il mio team si è aggiudicato il <strong>3° posto</strong> su decine di team.</p>
-          </div>
+        <div class="block-media">
+          <img src="images/b4i.png" alt="B4i Bocconi" class="block-img" />
         </div>
+      </div>
 
-        <div class="card">
-          <div class="card-img-wrap">
-            <img src="images/sistema-prenotazione.jpeg" alt="Sistema prenotazione ristoranti" class="card-img" />
-          </div>
-          <div class="card-body">
-            <span class="card-label">In corso</span>
-            <h3>Sistema Prenotazioni Ristoranti</h3>
-            <p>Gestione e sviluppo business di un sistema di prenotazione per il settore food & beverage. Dalla UX al go-to-market.</p>
-          </div>
-        </div>
+      <div class="block-divider"></div>
 
-        <div class="card">
-          <div class="card-img-wrap">
-            <img src="images/ai-locale.png" alt="Startup AI locale" class="card-img" />
-          </div>
-          <div class="card-body">
-            <span class="card-label">In costruzione</span>
-            <h3>Startup AI Locale</h3>
-            <p>Co-fondatore lato business. Go-to-market, pricing e modello di business insieme a un tech co-founder.</p>
-          </div>
-        </div>
-
-        <div class="card card-black">
-          <div class="card-body">
-            <span class="card-label card-label-light">Freelance</span>
-            <h3>5–6 Clienti in Remoto</h3>
-            <p>Clienti trovati combinando <strong>scraping</strong> di lead qualificati e <strong>email outreach con AI</strong>. Campagne paid, strategie di crescita e consulenza.</p>
-            <div class="card-logos">
-              <img src="images/ai-nike.jpeg" alt="Nike AI project" class="card-logo-img" />
-              <img src="images/ai-patagonia.jpeg" alt="Patagonia AI project" class="card-logo-img" />
+      <!-- Startup Weekend -->
+      <div class="block-row block-row-reverse">
+        <div class="block-text">
+          <span class="block-label">Competition</span>
+          <h3 class="block-title">Startup Weekend AI<br />— Lecco</h3>
+          <div class="block-metrics">
+            <div class="metric">
+              <span class="metric-num">54h</span>
+              <span class="metric-label">Da zero al pitch</span>
+            </div>
+            <div class="metric">
+              <span class="metric-num">3°</span>
+              <span class="metric-label">Posto su tutti i team</span>
             </div>
           </div>
+          <p class="block-desc">54 ore per validare, costruire e pitchare uno startup da zero. Il mio team si è aggiudicato il <strong>3° posto</strong> nella categoria AI, davanti a decine di competitor.</p>
         </div>
-
-        <div class="card">
-          <div class="card-img-wrap">
-            <img src="images/ristorante-ux.jpg" alt="UX Design ristorante" class="card-img" />
-          </div>
-          <div class="card-body">
-            <span class="card-label">UX & Design</span>
-            <h3>UX Design for Hospitality</h3>
-            <p>Experience digitali orientate alla conversione. Ricerca utente, prototipo, focus su conversione.</p>
-          </div>
+        <div class="block-media">
+          <img src="images/startup-weekend.jpeg" alt="Startup Weekend AI Lecco" class="block-img" />
         </div>
-
       </div>
+
+      <div class="block-divider"></div>
+
+      <!-- Sistema Prenotazioni -->
+      <div class="block-row">
+        <div class="block-text">
+          <span class="block-label">In corso</span>
+          <h3 class="block-title">Sistema Prenotazioni<br />Ristoranti</h3>
+          <p class="block-desc">Gestione e sviluppo business di un sistema di prenotazione dedicato al settore food & beverage. Seguo l'intero arco: dalla UX al go-to-market, dall'acquisizione clienti alla definizione del pricing.</p>
+          <ul class="block-list">
+            <li>Go-to-market e acquisizione clienti ristoratori</li>
+            <li>Pricing strategy e modello di business</li>
+            <li>UX e ottimizzazione del flusso di prenotazione</li>
+          </ul>
+        </div>
+        <div class="block-media">
+          <img src="images/sistema-prenotazione.jpeg" alt="Sistema prenotazione ristoranti" class="block-img" />
+        </div>
+      </div>
+
+      <div class="block-divider"></div>
+
+      <!-- Startup AI Locale -->
+      <div class="block-row block-row-reverse">
+        <div class="block-text">
+          <span class="block-label">In costruzione</span>
+          <h3 class="block-title">Startup<br />AI Locale</h3>
+          <p class="block-desc">Co-fondatore lato business di una startup nel settore AI locale. Sto costruendo la go-to-market strategy, il modello di business e il pricing insieme a un tech co-founder.</p>
+          <ul class="block-list">
+            <li>Definizione del mercato target e ICP</li>
+            <li>Business model e revenue streams</li>
+            <li>Early customer discovery e validazione</li>
+          </ul>
+        </div>
+        <div class="block-media">
+          <img src="images/ai-locale.png" alt="Startup AI locale" class="block-img" />
+        </div>
+      </div>
+
+      <div class="block-divider"></div>
+
+      <!-- Freelance -->
+      <div class="block-row">
+        <div class="block-text">
+          <span class="block-label">Freelance</span>
+          <h3 class="block-title">5–6 Clienti<br />in Remoto</h3>
+          <p class="block-desc">Tutti i clienti trovati in autonomia combinando <strong>scraping di lead qualificati</strong> e <strong>email outreach personalizzate con AI</strong>. Gestione completa di campagne paid, strategie di crescita e consulenza strategica.</p>
+          <ul class="block-list">
+            <li>Lead generation con scraping + AI</li>
+            <li>Campagne Meta e Google Ads</li>
+            <li>Growth strategy e consulenza</li>
+          </ul>
+        </div>
+        <div class="block-media block-media-duo">
+          <img src="images/ai-nike.jpeg" alt="Progetto Nike" class="block-img-duo" />
+          <img src="images/ai-patagonia.jpeg" alt="Progetto Patagonia" class="block-img-duo" />
+        </div>
+      </div>
+
+      <div class="block-divider"></div>
+
+      <!-- UX Design -->
+      <div class="block-row block-row-reverse">
+        <div class="block-text">
+          <span class="block-label">UX & Design</span>
+          <h3 class="block-title">UX Design<br />for Hospitality</h3>
+          <p class="block-desc">Progettazione di experience digitali per il settore hospitality. Dalla ricerca utente al prototipo finale, con focus su conversione e semplicità d'uso.</p>
+          <ul class="block-list">
+            <li>User research e journey mapping</li>
+            <li>Wireframe e prototipo su Figma</li>
+            <li>Test usabilità e ottimizzazione</li>
+          </ul>
+        </div>
+        <div class="block-media">
+          <img src="images/ristorante-ux.jpg" alt="UX Design ristorante" class="block-img" />
+        </div>
+      </div>
+
     </div>
   </section>
 
   <div class="full-divider"></div>
 
   <!-- AI ECOMMERCE -->
-  <section class="ai-ecom section" id="ai-ecommerce">
+  <section class="section" id="ai-ecommerce">
     <div class="container">
       <div class="section-label">Idea in costruzione</div>
-      <h2 class="section-title ai-ecom-title">L'LLM diventa<br />il nuovo sito web.</h2>
+      <h2 class="section-title">L'LLM diventa<br />il nuovo sito web.</h2>
 
-      <div class="ai-ecom-layout">
-        <div class="ai-ecom-text">
-          <p class="ai-ecom-intro">
-            Un agente AI di shopping che cambia pelle in tempo reale —
-            l'interfaccia assume l'identità del brand quando l'utente
-            approfondisce un marchio specifico, resta neutra sulle query generiche.
-          </p>
-          <div class="ai-ecom-thesis">
-            <div class="thesis-item">
-              <span class="thesis-num">01</span>
-              <div>
-                <strong>Brand-aware UI</strong>
-                <p>L'interfaccia si trasforma assumendo colori, font e tono del brand esplorato.</p>
-              </div>
-            </div>
-            <div class="thesis-item">
-              <span class="thesis-num">02</span>
-              <div>
-                <strong>Neutral by default</strong>
-                <p>Su query generiche resta neutro. Il brand emerge solo quando l'utente lo cerca.</p>
-              </div>
-            </div>
-            <div class="thesis-item">
-              <span class="thesis-num">03</span>
-              <div>
-                <strong>I brand plasmano l'esperienza</strong>
-                <p>Non più siti web statici — i brand vivono dentro la chat, dove l'utente già è.</p>
-              </div>
-            </div>
-          </div>
+      <div class="block-row">
+        <div class="block-text">
+          <p class="block-desc">Un agente AI di shopping che cambia pelle in tempo reale — l'interfaccia assume l'identità del brand quando l'utente approfondisce un marchio specifico, resta neutra sulle query generiche.</p>
+          <h4 class="block-subhead">La tesi</h4>
+          <ul class="block-list">
+            <li><strong>Brand-aware UI</strong> — l'interfaccia si trasforma assumendo colori, font e tono del brand esplorato</li>
+            <li><strong>Neutral by default</strong> — su query generiche resta neutro, il brand emerge solo quando l'utente lo cerca</li>
+            <li><strong>I brand plasmano l'esperienza</strong> — non più siti statici, i brand vivono dentro la chat dove l'utente è già</li>
+          </ul>
         </div>
-
-        <div class="ai-ecom-media">
+        <div class="block-media">
           <video
-            class="ai-ecom-video"
+            class="block-img"
             src="images/ai-ecommerce.mp4"
-            autoplay
-            muted
-            loop
-            playsinline
+            autoplay muted loop playsinline
             poster="images/ai-ecommerce-1.jpeg"
           ></video>
         </div>
       </div>
 
-      <div class="ai-ecom-photos">
-        <img src="images/ai-ecommerce-1.jpeg" alt="AI eCommerce concept" class="ai-ecom-photo" />
-        <img src="images/ai-ecommerce-2.jpeg" alt="AI eCommerce interface" class="ai-ecom-photo" />
+      <div class="block-divider"></div>
+
+      <div class="block-row block-row-reverse">
+        <div class="block-text">
+          <span class="block-label">Concept</span>
+          <h3 class="block-title">L'interfaccia<br />si trasforma.</h3>
+          <p class="block-desc">Quando l'utente esplora un brand specifico, l'agente non si limita a rispondere — diventa visivamente e tonalmente quel brand. È un cambio di paradigma nel modo in cui i marchi interagiscono con i consumatori online.</p>
+        </div>
+        <div class="block-media block-media-duo">
+          <img src="images/ai-ecommerce-1.jpeg" alt="AI eCommerce concept" class="block-img-duo" />
+          <img src="images/ai-ecommerce-2.jpeg" alt="AI eCommerce interface" class="block-img-duo" />
+        </div>
       </div>
+
     </div>
   </section>
 
   <div class="full-divider"></div>
 
   <!-- CASE STUDY -->
-  <section class="case-study section" id="case-study">
+  <section class="section" id="case-study">
     <div class="container">
       <div class="section-label">Case Study</div>
       <h2 class="section-title">StraBologna: +650%<br />registrazioni in 24 ore.</h2>
 
-      <div class="case-layout">
-        <div class="case-text">
-          <p class="case-intro">
-            Ho gestito e sviluppato l'intera strategia di pre-lancio per un mese.
-            Il risultato: <strong>+650% di registrazioni in 24 ore</strong>
-            rispetto all'edizione precedente.
-          </p>
-
-          <div class="case-results">
-            <div class="result-item">
-              <span class="result-num">+650%</span>
-              <span class="result-label">Registrazioni vs anno precedente (in 24h)</span>
+      <div class="block-row">
+        <div class="block-text">
+          <p class="block-desc">Ho gestito e sviluppato l'intera strategia di pre-lancio per un mese intero. Il risultato finale: un incremento di registrazioni del <strong>+650% in 24 ore</strong> rispetto all'edizione precedente.</p>
+          <div class="block-metrics">
+            <div class="metric">
+              <span class="metric-num">+650%</span>
+              <span class="metric-label">Registrazioni vs anno precedente (24h)</span>
             </div>
-            <div class="result-item">
-              <span class="result-num">−60%</span>
-              <span class="result-label">CAC grazie all'organico</span>
+            <div class="metric">
+              <span class="metric-num">−60%</span>
+              <span class="metric-label">CAC grazie all'organico</span>
             </div>
           </div>
-
-          <h4>Key elements della strategia</h4>
-          <ul class="case-list">
+          <h4 class="block-subhead">Key elements della strategia</h4>
+          <ul class="block-list">
             <li>Partenza <strong>un mese prima</strong> rispetto alle edizioni precedenti</li>
             <li>Newsletter strategiche con <strong>aggiornamenti progressivi</strong></li>
-            <li>Comunicazione <strong>entusiasta a tema natalizio</strong></li>
-            <li>Nuovo <strong>sistema di pricing dinamico</strong> crescente al numero di iscritti</li>
-            <li>Forte effetto <strong>FOMO</strong></li>
+            <li>Comunicazione <strong>a tema natalizio</strong> con forte FOMO</li>
+            <li>Nuovo <strong>pricing dinamico</strong> crescente al numero di iscritti</li>
             <li>Redesign completo della <strong>UX/UI</strong></li>
             <li>Campagne <strong>Meta e Google Ads</strong> + forte focus sull'organico</li>
           </ul>
         </div>
-
-        <div class="case-visual">
-          <img src="images/strabologna.jpg" alt="StraBologna" class="case-img" />
+        <div class="block-media">
+          <img src="images/strabologna.jpg" alt="StraBologna" class="block-img" />
         </div>
       </div>
+
     </div>
   </section>
 
   <div class="full-divider"></div>
 
   <!-- SKILLS -->
-  <section class="skills section" id="skills">
+  <section class="section" id="skills">
     <div class="container">
       <div class="section-label">Skills</div>
       <h2 class="section-title">Orizzontale per natura.</h2>
       <div class="skills-grid">
-        <div class="skill-item">
-          <h4>Paid Ads</h4>
-          <p>Meta Ads, Google Ads. Ottimizzazione continua su ROAS e CAC.</p>
-        </div>
-        <div class="skill-item">
-          <h4>Growth Marketing</h4>
-          <p>Strategie full-funnel: acquisizione, attivazione, retention.</p>
-        </div>
-        <div class="skill-item">
-          <h4>UX Design</h4>
-          <p>Experience digitali orientate alla conversione. Da Figma al prototipo.</p>
-        </div>
-        <div class="skill-item">
-          <h4>AI & Claude Code</h4>
-          <p>Automazione, content, outreach. Strumenti custom con Claude Code.</p>
-        </div>
-        <div class="skill-item">
-          <h4>Lead Generation</h4>
-          <p>Scraping + email outreach con AI. Pipeline B2B costruita da zero.</p>
-        </div>
-        <div class="skill-item">
-          <h4>B2B Sales</h4>
-          <p>Cold call, vendita consultiva, gestione obiezioni, chiusura deal.</p>
-        </div>
-        <div class="skill-item">
-          <h4>Email Marketing</h4>
-          <p>Newsletter strategiche, sequenze di nurturing. Copy orientato alla conversione.</p>
-        </div>
-        <div class="skill-item">
-          <h4>Startup Building</h4>
-          <p>Business model, go-to-market, pricing, pitch.</p>
-        </div>
+        <div class="skill-item"><h4>Paid Ads</h4><p>Meta Ads, Google Ads. Ottimizzazione continua su ROAS e CAC.</p></div>
+        <div class="skill-item"><h4>Growth Marketing</h4><p>Full-funnel: acquisizione, attivazione, retention.</p></div>
+        <div class="skill-item"><h4>UX Design</h4><p>Experience digitali orientate alla conversione. Da Figma al prototipo.</p></div>
+        <div class="skill-item"><h4>AI & Claude Code</h4><p>Automazione, content, outreach. Strumenti custom con Claude Code.</p></div>
+        <div class="skill-item"><h4>Lead Generation</h4><p>Scraping + email outreach con AI. Pipeline B2B da zero.</p></div>
+        <div class="skill-item"><h4>B2B Sales</h4><p>Cold call, vendita consultiva, gestione obiezioni, chiusura deal.</p></div>
+        <div class="skill-item"><h4>Email Marketing</h4><p>Newsletter strategiche, sequenze di nurturing. Copy orientato alla conversione.</p></div>
+        <div class="skill-item"><h4>Startup Building</h4><p>Business model, go-to-market, pricing, pitch.</p></div>
       </div>
     </div>
   </section>
@@ -332,29 +323,23 @@
   <div class="full-divider"></div>
 
   <!-- CONTACT -->
-  <section class="contact section" id="contact">
+  <section class="section" id="contact">
     <div class="container">
       <div class="contact-box">
         <div class="section-label">Contatti</div>
         <h2 class="section-title">Parliamo.</h2>
-        <p class="contact-desc">
-          Hai un progetto interessante? Cerchi qualcuno che esegue davvero?<br />
-          Scrivimi — rispondo entro 24 ore.
-        </p>
+        <p class="contact-desc">Hai un progetto interessante? Cerchi qualcuno che esegue davvero?<br />Scrivimi — rispondo entro 24 ore.</p>
         <div class="contact-actions">
-          <a href="mailto:gabrielestaffa2003@gmail.com" class="btn btn-primary btn-large btn-full">Scrivimi una mail</a>
-          <a href="https://www.linkedin.com/in/gabriele-staffa-351b971b2/" target="_blank" class="btn btn-ghost btn-large btn-full">LinkedIn</a>
+          <a href="mailto:gabrielestaffa2003@gmail.com" class="btn btn-primary btn-large">Scrivimi una mail</a>
+          <a href="https://www.linkedin.com/in/gabriele-staffa-351b971b2/" target="_blank" class="btn btn-ghost btn-large">LinkedIn</a>
         </div>
         <p class="contact-email">gabrielestaffa2003@gmail.com</p>
       </div>
     </div>
   </section>
 
-  <!-- FOOTER -->
   <footer class="footer">
-    <div class="container">
-      <span>© 2025 Gabriele Staffa</span>
-    </div>
+    <div class="container">© 2025 Gabriele Staffa</div>
   </footer>
 
   <script src="script.js"></script>
