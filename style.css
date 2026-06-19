@@ -258,6 +258,13 @@ ul { list-style: none; }
 video.block-img { object-fit: cover; }
 .block-img:hover { filter: grayscale(0%); }
 
+/* Immagini orizzontali: mostra tutto senza taglio */
+.block-img-contain {
+  object-fit: contain;
+  background: var(--bg-subtle);
+  padding: 24px;
+}
+
 /* Duo: due immagini affiancate */
 .block-media-duo {
   display: grid; grid-template-columns: 1fr 1fr;
