@@ -1,9 +1,9 @@
-// Fade-in on scroll
+// Fade-in solo su elementi piccoli, non sui blocchi interi
 const observer = new IntersectionObserver(
   (entries) => entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }),
-  { threshold: 0.08 }
+  { threshold: 0.06 }
 );
-document.querySelectorAll('.block-row, .skill-item, .trait, .metric, .block-list li')
+document.querySelectorAll('.skill-item, .trait, .metric, .block-list li')
   .forEach(el => { el.classList.add('fade-up'); observer.observe(el); });
 
 // Mobile nav
